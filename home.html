@@ -10,17 +10,18 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header>
     <!-- place navbar here -->
     <div class="container-fluid menu">
-    <nav class="navbar navbar-expand-lg navbar-brand ">
-      
-        <a class="navbar-brand" href="#">Pagina Hogar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <a class="navbar-brand" href="#"><SPAn class="text-success">Pagina</SPAn>Hogar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -35,7 +36,8 @@
               <a class="nav-link" href="#">Contactanos</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
                 Productos
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -47,30 +49,73 @@
             </li>
           </ul>
         </div>
-      </div>
+    </div>
     </nav>
   </header>
   <main>
-   
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="Recursos/banoHome.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h5>Articulos para Baño</h5>
+            <p>Decora tu baño, pueden ayudar a proteger tu superficie, mantener tu baño
+              limpio y ordenado.</p>
+            <a href="#" class="btn btn-primary mt-3">Ver más</a>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <img src="Recursos/CocinaHome2.jpg" class="d-block w-100 " alt="...">
+          <div class="carousel-caption">
+            <h5>Articulos para Cocina</h5>
+            <p>Te ofrecemos docenas de accesorios de cocina profesionales a tu alcance. Desde las cucharas de cocina
+               hasta el triturador de ajos,cuchillos</p>
+            <a href="#" class="btn btn-primary mt-3">Ver más</a>
+          </div>
+        </div>
+
+        <div class="carousel-item ">
+          <img src="Recursos/DecoHome2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h5>Decoración para tu hogar</h5>
+            <p>Eleva tu decoración a nuevos niveles desde tu cocina hasta tu baño, el elevador de madera decorativo
+              añade ese toque elegante extra especial a tu hogar</p>
+            <a href="#" class="btn btn-primary mt-3">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </main>
   <footer>
     <div class="container-fluid menufooter">
-    <nav class="navbar navbar-expand ">
+      <nav class="navbar navbar-expand ">
         <div class="nav navbar-nav">
-            <a class="nav-item nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Home</a>
+          <a class="nav-item nav-link active" href="#" aria-current="page">Home <span
+              class="visually-hidden">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Home</a>
         </div>
-    </nav>
-  </div>
+      </nav>
+    </div>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
+    </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>
