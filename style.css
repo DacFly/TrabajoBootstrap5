@@ -31,3 +31,23 @@
     left: 0;
     background: rgb(0, 30, 82,0.327);
 }
+
+.card{
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    background: white;
+}
+
+.card-img-top{
+    height: 250px;
+    width: 100%;
+}
+
+.titulo{
+    margin: 60px;
+    text-align: center;
+    font-size: 30px;
+}
