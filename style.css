@@ -1,2 +1,26 @@
+.container-menu{
+    font-size: 20px;
+    background-color: bisque;
+}
+.card{
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    background: white;
+}
+
+.card-img-top{
+    height: 250px;
+    width: 100%;
+}
+
+.titulo{
+    margin: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
 
 
